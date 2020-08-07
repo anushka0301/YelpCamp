@@ -1,0 +1,241 @@
+div.pullDown
+{
+    font-family: Raleway;
+    font-size: 1vw;
+    margin: 0 auto;
+	padding: 1.5em 3em;
+	text-align: center;
+}
+
+.index
+{
+    font-family: Raleway;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:focus{
+    background-color: antiquewhite;
+}
+
+textarea:focus{
+    background-color: antiquewhite;
+}
+
+#add
+{
+    border:none;
+    background: #130653;
+    color:#FFF;
+    font-family: Raleway;
+    padding: 1.5%;
+    font-size: 1em;
+    outline: none;   
+    border-radius: 25px;
+    text-decoration:none ;
+}
+
+#sign{
+	border:none;
+    background: #130653;
+    color:#FFF;
+    font-family: Raleway;
+    padding: 3% 4%;
+    font-size: 1em;
+    outline: none;   
+    border-radius: 25px;
+    text-decoration:none ;
+}
+
+#sign:hover{
+    outline: none;
+    background-color: rgb(19,6,83,0.5);
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+#nav
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 1.4vw Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.blue
+{
+    background:#130653;
+}
+div.pullDown a:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+div.pullDown a:hover:before
+{
+    height: 100%;
+}
+
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+div.jumbotron h1{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 5.3vw;
+}
+
+.jumbotron p{
+    font-size: 2vw;
+}
+
+.jumbotron{
+    margin: 0 auto;
+    margin-top: 2%;  
+    margin-bottom: 4%;  
+    text-align: center;
+    background-image: url(https://www.mtcfederal.com/wp-content/uploads/2019/02/GettyImages-677059814-1024x683.jpg);
+    opacity: 0.8;
+    background-position: 0% 57%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(82, 78, 78);
+    border-radius: 1%;
+}
+
+#paragraph{
+    text-decoration: underline;
+    padding-bottom: 3%;
+    font-family:'Open Sans Condensed', sans-serif;
+    color: #FFF;
+    padding-top: 3% ;
+    font-size: 2.3vw;
+}
+
+#add:hover{
+    outline: none;
+    background-color: rgb(19,6,83,0.5);
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+div.form-control:focus{
+    border:none;
+}
+#n{
+    padding-bottom: 25px;
+	color: white;
+}
+
+#n1{
+    padding-bottom: 15px;
+    text-align: center;
+	color: white;
+}
+
+#form{
+	margin-top: 15%;
+	text-align: center;
+}
+
+#sign1{
+	color: antiquewhite;
+}
+
+hr{
+	height:2px;
+	margin:30px 0 30px 0;
+	background:rgba(255,255,255,.2);
+}
+
+.form-control{
+	border:none;
+	padding:20px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.3);
+}
+
+#img{
+    height:250px;
+    width:100%;
+    overflow: hidden;
+}
+
+div.well{
+    background: rgb(255,255,255,0.7);
+}
+
+div.show{
+    margin-top: 3%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.caption-full{
+    padding:9px;
+}
+
+.wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background:url(https://data.whicdn.com/images/315898617/original.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.5);
+}
+
+#del{
+    border: none; 
+    background-color: transparent;
+}
+
+#del:focus{
+    outline: none;
+}
+
+div.alert.alert-danger{
+    margin-top: 1.5%;
+}
+
+div.alert.alert-success{
+    margin-top: 1.5%;
+    margin-bottom:-1%; 
+}
+
+#about{
+    padding: 3%;
+    margin-top: 4%;
+    width: 65%;
+    background:rgba(40,57,101,.5);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.788);
+    font-family: Raleway;
+    text-align: center;
+}

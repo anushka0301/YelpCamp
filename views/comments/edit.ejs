@@ -1,0 +1,22 @@
+<%- include ('../partials/header') -%>
+
+<div class="wrap">
+    <div class="html">
+        <div id="form">
+            <h1 id="n">Edit review!</h1>
+            <form action="/campgrounds/<%=campground._id%>/comments/<%= comment._id %>?_method=PUT" method="POST">
+                <div class="form-group">
+                    <textarea class="form-control" name="comment[text]" cols="30" rows="3"><%= comment.text %></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn-block" id="add">Submit</button>
+                </div>     
+                <hr>     
+            </form>
+            <a href="/campgrounds" id="back" style="text-decoration: none; color:rgb(250,250,250,0.7);">Go Back  <i class="fa fa-undo"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<%- include ('../partials/footer') -%>

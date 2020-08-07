@@ -1,0 +1,30 @@
+<%- include ('../partials/header') -%>
+
+<div class="wrap">
+    <div class="html">
+        <div id="form">
+            <h1 id="n">Help us explore better places!</h1>
+            <form action="/campgrounds" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="image" placeholder="Image URL">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="price" placeholder="Price">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="description" cols="30" rows="3" placeholder="Description"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn-block" id="add">Submit</button>
+                </div>
+                <hr>     
+            </form>
+            <a href="/campgrounds" id="back" style="text-decoration: none; color:rgb(250,250,250,0.7);">Go Back  <i class="fa fa-undo"></i></a>
+        </div>
+    </div>
+</div>
+
+<%- include ('../partials/footer') -%>
